@@ -4,8 +4,7 @@ export default {
   footer: (
     <footer>
       <small>
-        <time>{YEAR}</time> © Guillermo Oswaldo Hasbun Jr..
-        <a href="/feed.xml">RSS</a>
+        <time>{YEAR}</time> © Guillermo Oswaldo Hasbun Jr.
       </small>
       <style jsx>{`
         footer {
