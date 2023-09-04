@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title><![CDATA[Your Name]]></title>
-        <description><![CDATA[Your Name]]></description>
-        <link>https://yoursite.com</link>
+        <title><![CDATA[Guillermo O. Hasbun Jr.]]></title>
+        <description><![CDATA[Guillermo O. Hasbun Jr.]]></description>
+        <link>https://www.ghasbun.dev/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 01 Sep 2023 15:35:48 GMT</lastBuildDate>
-        <atom:link href="https://yoursite.com/feed.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Fri, 01 Sep 2023 22:10:30 GMT</lastBuildDate>
+        <atom:link href="https://www.ghasbun.dev/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Markdown Examples]]></title>
             <description><![CDATA[View examples of all possible Markdown options.]]></description>
