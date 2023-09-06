@@ -63,3 +63,14 @@ img.next-image {
 .nav-line .nav-link {
   color: #69778c;
 }
+
+.page-transition-entering,
+.page-transition-exiting,
+.page-transition-exited {
+  opacity: 0;
+}
+
+.page-transition-entered {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
