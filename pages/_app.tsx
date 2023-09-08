@@ -2,9 +2,9 @@ import 'nextra-theme-blog/style.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import '../styles/main.css'
+import { motion } from "framer-motion"
 
-export default function App({ Component, pageProps }: AppProps) {
-
+export default function App({ Component, pageProps }: AppProps, isVisible: boolean) {
   return (
     <>
       <Head>
@@ -22,7 +22,14 @@ export default function App({ Component, pageProps }: AppProps) {
           crossOrigin="anonymous"
         />
       </Head>
-      <Component {...pageProps} />
+      <motion.div
+        className="container"
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }}
+      >
+        {<Component {...pageProps} />}
+      </motion.div>
     </>
   )
 }
