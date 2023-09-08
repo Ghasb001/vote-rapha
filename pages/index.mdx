@@ -7,7 +7,10 @@ import Image from 'next/image'
 <h2>Hi! My name is Guillermo, and I'm a:</h2>
 <li>Full Stack Engineer</li>
 <li>Software Developer</li>
-<li>Full time Dad</li>
+<li onClick={(e) => {
+  e.preventDefault();
+  console.log('Easter egg found!: https://images-na.ssl-images-amazon.com/images/I/418r9PmmoSL.jpg')
+}}>Full time Dad</li>
 {console.log('For those of you curious enough to check the console, feel free to check out this video: https://www.youtube.com/watch?v=dQw4w9WgXcQ')}
 ---
 
