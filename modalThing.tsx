@@ -43,7 +43,7 @@ export function ModalThing(props: any) {
       >
         <img src={props.pic} width='700' height='1050' ></img>
         <h2 ref={(_subtitle) => (subtitle = _subtitle)}>{props.words}</h2>
-        <button onClick={closeModal}>Close</button>
+        <button style={{color: 'black'}} onClick={closeModal} >Close</button>
       </Modal>
     </div>
   );
