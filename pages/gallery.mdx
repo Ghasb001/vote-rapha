@@ -4,74 +4,87 @@ title: Gallery
 ---
 
 # Gallery
-import Image from 'next/image'
+import Image from 'next/image';
 
-<div>
+<div style={{display: 'flex', flexWrap: 'wrap', alignItems: 'center'}}>
+<div style={{padding: '10px'}} >
 <Image
   src="/images/HackReactor.jpeg"
   alt="Photo"
-  width={1125}
-  height={750}
+  width={300}
+  height={200}
   priority
   className="next-image"
   style={{borderRadius: '10px'}}
 />
 <h5 style={{paddingBottom: 25}}>Hack Reactor Completion Certificate</h5>
+</div>
 
+<div style={{padding: '10px'}}>
 <Image
   src="/images/Canaveral.jpeg"
   alt="Photo"
-  width={1125}
-  height={750}
+  width={300}
+  height={200}
   priority
   className="next-image"
   style={{borderRadius: '10px'}}
 />
 <h5 style={{paddingBottom: 25}}>Cape Canaveral</h5>
+</div>
 
+<div style={{padding: '10px'}}>
 <Image
   src="/images/Grand.jpeg"
   alt="Photo"
-  width={1125}
-  height={750}
+  width={300}
+  height={200}
   priority
   className="next-image"
   style={{borderRadius: '10px'}}
 />
 <h5 style={{paddingBottom: 25}}>Grand Canyon</h5>
+</div>
 
+<div style={{padding: '10px'}}>
 <Image
   src="/images/Milton.jpeg"
   alt="Photo"
-  width={1125}
-  height={750}
+  width={300}
+  height={200}
   priority
   className="next-image"
   style={{borderRadius: '10px'}}
 />
 <h5 style={{paddingBottom: 25}}>Milton, WI</h5>
+</div>
 
+<div style={{padding: '10px'}}>
 <Image
   src="/images/Welches.jpeg"
   alt="Photo"
-  width={1125}
-  height={750}
+  width={300}
+  height={200}
   priority
   className="next-image"
   style={{borderRadius: '10px'}}
 />
 <h5 style={{paddingBottom: 25}}>Welches, OR</h5>
+</div>
 
+<div style={{padding: '10px'}}>
 <Image
   src="/images/Yosemite.jpeg"
   alt="Photo"
-  width={1125}
-  height={750}
+  width={300}
+  height={200}
   priority
   className="next-image"
   style={{borderRadius: '10px'}}
 />
 <h5 style={{paddingBottom: 25}}>Yosemite National Park</h5>
+</div>
+
 </div>
 ---
 
