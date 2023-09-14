@@ -32,7 +32,7 @@ export function ModalThing(props: any) {
 
   return (
     <div>
-      <img src={props.pic} width='300' height='200' onClick={openModal}></img>
+      <img src={props.pic} width='300' height='200' style={{borderRadius: '10px'}}onClick={openModal}></img>
       <Modal
       ariaHideApp={false}
         isOpen={modalIsOpen}
@@ -41,7 +41,7 @@ export function ModalThing(props: any) {
         style={customStyles}
         contentLabel="Example Modal"
       >
-        <img src={props.pic} width='700' height='1050' ></img>
+        <img src={props.pic} width='600' height='900' ></img>
         <h2 ref={(_subtitle) => (subtitle = _subtitle)}>{props.words}</h2>
         <button style={{color: 'black'}} onClick={closeModal} >Close</button>
       </Modal>
