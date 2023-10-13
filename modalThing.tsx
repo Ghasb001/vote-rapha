@@ -32,7 +32,7 @@ export function ModalThing(props: any) {
 
   return (
     <div>
-      <img src={props.pic} width='300' height='200' style={{borderRadius: '10px'}}onClick={openModal}></img>
+      <img src={props.pic} alt={props.pic.slice(8)} width='300' height='200' style={{borderRadius: '10px'}} onClick={openModal}></img>
       <Modal
       ariaHideApp={false}
         isOpen={modalIsOpen}
