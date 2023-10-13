@@ -5,21 +5,53 @@ title: Welcome
 import Image from 'next/image'
 
 <h2>Hi! My name is Guillermo, and I'm a:</h2>
-<li>Full Stack Engineer</li>
-<li>Software Developer</li>
-<li onClick={(e) => {
-  e.preventDefault();
-  console.log('Easter egg found!: https://images-na.ssl-images-amazon.com/images/I/418r9PmmoSL.jpg')
-}}>Full time Dad</li>
-{console.log('For those of you curious enough to check the console, feel free to check out this video: https://www.youtube.com/watch?v=dQw4w9WgXcQ')}
+  <ul>
+    <li>Full Stack Engineer</li>
+    <li>Software Developer</li>
+    <li onClick={(e) => {
+    e.preventDefault();
+    console.log('Easter egg found!: https://images-na.ssl-images-amazon.com/images/I/418r9PmmoSL.jpg')
+    }}>Full time Dad</li>
+    {console.log('For those of you curious enough to check the console, feel free to check out this video: https://www.youtube.com/watch?v=dQw4w9WgXcQ')}
+  </ul>
 ---
 
 <div>
-<h3>Let's Connect!</h3>
+<h3 style={{marginBottom: 20}}>Let's Connect!</h3>
   <p style={{display:"flex", flexWrap: "wrap"}}>
-  <a href="https://www.github.com/Ghasb001" target="_blank" rel="noreferrer"><img src="/images/github.PNG" width="50" height="50" style={{marginRight: "40px"}}/></a>
-  <a href="https://www.linkedin.com/in/guillermo-hasbun-15533993/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="40" height="40" style={{marginRight: "40px"}}/></a>
-  <a href="mailto:ghasb001@gmail.com" target="_blank" rel="noreferrer"><img src="/images/gmail.PNG" width="50" height="50" style={{marginRight: "40px"}}/></a>
+
+  <a href="https://www.github.com/Ghasb001" target="_blank" rel="noreferrer">
+  <Image
+  src="/images/github.PNG"
+  alt="github"
+  width={50}
+  height={50}
+  priority
+  className="next-image"
+  style={{marginRight: "40px"}}/>
+  </a>
+
+  <a href="https://www.linkedin.com/in/guillermo-hasbun-15533993/" target="_blank" rel="noreferrer">
+  <Image
+  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg"
+  alt="linkedin"
+  width={40}
+  height={40}
+  priority
+  className="next-image"
+  style={{marginRight: "40px"}}/>
+  </a>
+
+  <a href="mailto:ghasb001@gmail.com" target="_blank" rel="noreferrer">
+  <Image
+  src="/images/gmail.PNG"
+  alt="gmail"
+  width={50}
+  height={50}
+  priority
+  className="next-image"
+  style={{marginRight: "40px"}}/>
+  </a>
   </p>
 </div>
 
@@ -27,11 +59,11 @@ import Image from 'next/image'
 <div style={{display: 'flex', alignItems: 'center'}}>
   <a
     href="resume.pdf"
-    alt="alt text"
+    alt="pdf"
     target="_blank"
     rel="noopener noreferrer"
   >
   Download Resumé
   </a>
-<a href="https://calendar.app.google/WoyjaxVKrQHxf2YTA" target="_blank" rel="noreferrer"><img src="https://download.logo.wine/logo/Google_Calendar/Google_Calendar-Logo.wine.png" width="75" height="75" style={{marginRight: "40px", marginLeft: '0px'}}/></a>
+<a href="https://calendar.app.google/WoyjaxVKrQHxf2YTA" target="_blank" rel="noreferrer"><img src="https://download.logo.wine/logo/Google_Calendar/Google_Calendar-Logo.wine.png" alt="calendar" width="75" height="75" style={{marginRight: "40px", marginLeft: '0px'}}/></a>
 </div>
