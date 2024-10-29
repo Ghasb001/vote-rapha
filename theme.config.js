@@ -4,7 +4,7 @@ export default {
   footer: (
     <footer>
       <small>
-        <time>{YEAR}</time> © Guillermo Oswaldo Hasbun Jr.
+        <time>{YEAR}</time> © Raphael Bruce Shogreen-Hasbun
       </small>
       <style jsx>{`
         footer {
