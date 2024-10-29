@@ -11,12 +11,13 @@ import Image from 'next/image'
     <div
       style={{
         display: 'flex',
-        justifyContent: 'space-between',
+        justifyContent: 'space-around',
+        flexWrap: 'wrap'
       }}
     >
-    <div>
+    <div style={{padding: 10}}>
     <h3>He Has All the Right Qualities</h3>
-      <ul style={{fontSize: 18 }}>
+      <ul style={{fontSize: 18, padding: 10 }}>
         <li>I'm good with my friends</li>
         <li>I like to have fun</li>
         <li>I'm a great helper</li>
@@ -29,8 +30,8 @@ import Image from 'next/image'
       <Image
         src="/images/candidate.jpg"
         alt="Photo"
-        width={300}
-        height={300}
+        width={250}
+        height={350}
         priority
         className="next-image"
         style={{ borderRadius: '10px' }}
