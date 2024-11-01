@@ -7,14 +7,27 @@ import Image from 'next/image'
 # Messages
 
 <center><h2>Messages from Rapha</h2></center>
-
+<center>
 <div
 style={{
   display: 'flex',
-  justifyContent: 'space-around',
-  flexWrap: 'wrap',
-  alignItems: 'flex-start'
+  justifyContent: 'center',
+  flexDirection: 'column'
 }}>
+
+<div>
+<center><h3>Rapha's Candidate Speech</h3></center>
+<video controls width="500">
+  <source src="/videos/speech.MOV" type="video/webm" />
+  <source src="/videos/speech.MOV" type="video/mp4" />
+
+  Download the
+  <a href="/videos/speech.MOV">WEBM</a>
+  or
+  <a href="/videos/speech.MOV">MP4</a>
+  video.
+</video>
+</div>
 
 <div>
 <center><h3>Get out there and vote!</h3></center>
@@ -29,8 +42,6 @@ style={{
   video.
 </video>
 </div>
-
-
 
 <div>
 <center><h3>Meet your candidate!</h3></center>
@@ -47,4 +58,4 @@ style={{
 </div>
 
 </div>
-
+</center>
